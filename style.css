@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    max-height: 700px;
+    max-width: 700px;
+    background-image: url(src/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+    
+}
+
+a{
+    color: aquamarine;
+    text-decoration: none;
+    transition: border;
+}
+
+.navbar{
+    position:relative;
+    left:0;
+    top: 0;
+    
+    width: 200%;
+    padding: 25px 9%;
+    background-color: navy;
+    display:inline-block;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 5vw;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar ul li:hover a{
+    transition: 0.5s;
+    color: red;
+}
+.navbar ul li.active a{
+    
+    color: rgb(255, 0, 0);
+    border: 2px solid aquamarine;
+    border-radius: 12px;
+    padding: 5px;
+    display: inline-block;
+    transition: 0.5s;
+    box-shadow: 5px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    padding: 30px 9% 0;
+    color: aquamarine;
+}
+
+.home-info h1{
+    font-size: 45px;
+}
+
+.home-info h2{
+    font-size: 32px;
+    margin-top: -10px;
+    align-items: center;
+}
+
+.home-info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: navy;
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 0 0 10px;
+    font-size: 16px;
+    color: aquamarine;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn:hover{
+    background: transparent;
+    color: black;
+}
+
+.home-info .btn-sci .sci{
+    margin-left: 20px;
+}
+
+.home-info .btn-sci .sci a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid green;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.home-info .btn-sci .sci a:hover{
+    background: navy;
+}
+
+.home-img .img-box {
+    width: 20vw;
+    height: 20vw;
+    background: aquamarine;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.home .img-box .img-item{
+    width: 20vw;
+    height: 20vw;
+    background: navy;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-img .img-box img{
+    position: relative;
+    display: block;
+    width: 125%;
+    object-fit: cover;
+}
+
+.contact{
+    position: relative;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    top: 5vh;
+    left: 30vh;
+    width: 500px;
+    background-color: navy;
+    box-shadow: 0 0 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    border-radius: 24px ;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+form{
+    justify-content: center;
+    align-self: center;
+    margin: 60px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 1px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    justify-content: center;
+}
+
+.text-field{
+    height: 150px;
+    width: 400px;
+    gap: 10px;
+    padding-top: 20px;
+    border-radius: 14px;
+}
+
+@media screen and (max-width: 700px){
+
+    body{
+        max-height: 480px;
+        max-width: 320px;
+    }
+    .navbar{
+        position:relative;
+        left:0;
+        top: 0;
+        
+        width: 200%;
+        padding: 25px 9%;
+        background-color: navy;
+        display:inline-block;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+    }
+    
+
+    .home-img .img-box {
+        width: 20vw;
+        height: 20vw;
+        background: aquamarine;
+        border-radius: 50%;
+        padding: 2px;
+    }
+    .contact{
+        position: absolute;
+        
+        top: 30vh;
+        left: 7vh;
+        width: 300px;
+        background-color: navy;
+        box-shadow: 0 0 20px 0;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        border-radius: 24px ;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .input-field{
+        width: 200px;
+        height: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 1px;
+        border: 1px solid #777;
+        border-radius: 14px;
+        justify-content: center;
+    }
+    
+    .text-field{
+        height: 150px;
+        width: 200px;
+        gap: 10px;
+        padding-top: 20px;
+        border-radius: 14px;
+    }
+}
