@@ -76,7 +76,7 @@ a{
     display: flex;
     align-items: center;
     height: 70vh;
-    padding: 30px 9% 0;
+    padding: 50px 9% 0;
     color: aquamarine;
 }
 
@@ -158,6 +158,12 @@ a{
     align-items: center;
     
     
+}
+
+.icons{
+    width: 24px;
+    height: 24px;
+    padding-top: 15px;
 }
 
 form{
@@ -267,7 +273,7 @@ form{
     
     .contact{
         top: 5vh;
-        left: 65%;
+        left: 50%;
         transform: translateX(-50%);
         
     }
