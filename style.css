@@ -76,7 +76,7 @@ a{
     display: flex;
     align-items: center;
     height: 70vh;
-    padding: 50px 9% 0;
+    padding: 50px 9% 100px;
     color: aquamarine;
 }
 
@@ -196,7 +196,7 @@ form{
 
     body{
         max-width: 700vw;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .navbar{
         position:relative;
