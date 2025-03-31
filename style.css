@@ -82,7 +82,7 @@ a{
     height: 70vh;
     padding: 50px 9% 100px;
     color: aquamarine;
-    padding-top: 15vh;
+    padding-top: 20vh;
 }
 
 .home-info{
@@ -140,6 +140,7 @@ a{
     border-radius: 50%;
     padding: 5px;
     top: 5vh
+    
 }
 
 .home .img-box .img-item{
@@ -240,6 +241,10 @@ form{
         margin-left: 3vw;
     }
 
+    .home{
+        padding-top: 10vh;
+    }
+
     .home-img .img-box {
         width: 20vw;
         height: 20vw;
@@ -247,6 +252,8 @@ form{
         border-radius: 50%;
         padding: 2px;
     }
+
+
     .contact{
         position: absolute;
         
@@ -294,6 +301,11 @@ form{
         width: 83%;
     }
     
+    .home{
+        padding-top: 5vh;
+    }
+
+
     .contact{
         top: 5vh;
         left: 50%;
