@@ -28,10 +28,12 @@ a{
     position:relative;
     left:0;
     top: 0;
-    
+    border: 2px solid aquamarine;
+    border-radius: 14px;
+    box-shadow: 0 0 20px 0;
     width: 83%;
     padding: 25px 9%;
-    background-color: navy;
+    background-color: rgba(0, 0, 255, 0.5);;
     display:inline-block;
     justify-content: space-between;
     align-items: center;
@@ -41,6 +43,7 @@ a{
 .navbar .logo{
     font-size: 30px;
     font-weight: 700;
+    color: orange;
 }
 
 .navbar ul{
@@ -59,12 +62,13 @@ a{
 
 .navbar ul li:hover a{
     transition: 0.5s;
-    color: red;
+    color: orange;
 }
 .navbar ul li.active a{
     
-    color: rgb(255, 0, 0);
+    color: orange;
     border: 2px solid aquamarine;
+    box-shadow: 0 0 20px 0;
     border-radius: 12px;
     padding: 5px;
     display: inline-block;
@@ -78,14 +82,27 @@ a{
     height: 70vh;
     padding: 50px 9% 100px;
     color: aquamarine;
+    padding-top: 15vh;
 }
 
+.home-info{
+    background-color: rgba(0, 0, 255, 0.5);
+    border: 2px, solid aquamarine;
+    box-shadow: 0 0 20px 0;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 10vh;
+    border-radius: 14px;
+}
 
 .home-info h1{
     font-size: 45px;
+    color: orange;
 }
 
 .home-info h2{
+    color: orange;
+    padding-top: 5vh;
     font-size: 32px;
     margin-top: -10px;
     align-items: center;
@@ -100,8 +117,8 @@ a{
 .btn{
     display: inline-block;
     padding: 10px 30px;
-    background: navy;
-    border: 2px solid red;
+    background: rgba(0, 0, 255, 0.5);;
+    border: 2px solid orange;
     border-radius: 40px;
     box-shadow: 0 0 10px;
     font-size: 16px;
@@ -112,7 +129,7 @@ a{
 
 .btn:hover{
     background: transparent;
-    color: red;
+    color: orange;
 }
 
 
@@ -122,12 +139,13 @@ a{
     background: aquamarine;
     border-radius: 50%;
     padding: 5px;
+    top: 5vh
 }
 
 .home .img-box .img-item{
     width: 20vw;
     height: 20vw;
-    background: navy;
+    background: rgba(0, 0, 255, 0.5);;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
@@ -143,11 +161,11 @@ a{
 .contact{
     position: relative;
     padding-bottom: 10px;
-    
+    border: 2px, solid, aquamarine;
     top: 5vh;
     left: 30vh;
     width: 500px;
-    background-color: navy;
+    background-color: rgba(0, 0, 255, 0.5);;
     box-shadow: 0 0 20px 0;
 
     display: flex;
@@ -159,6 +177,10 @@ a{
     align-items: center;
     
     
+}
+
+.contact h3{
+    color: orange;
 }
 
 .icons{
@@ -203,10 +225,10 @@ form{
         position:relative;
         left:0;
         top: 0;
-        
+        box-shadow: 0 0 20px 0;
         width: 90%;
         
-        background-color: navy;
+        background-color: rgba(0, 0, 255, 0.5);;
         display:inline-block;
         justify-content: space-between;
         align-items: center;
@@ -231,7 +253,7 @@ form{
         top: 30vh;
         left: 7vh;
         width: 300px;
-        background-color: navy;
+        background-color: rgba(0, 0, 255, 0.5);;
         box-shadow: 0 0 20px 0;
     
         display: flex;
